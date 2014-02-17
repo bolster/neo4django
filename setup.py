@@ -10,7 +10,7 @@ setup(
     url = "https://neo4django.readthedocs.org/en/latest/",
     packages=['neo4django','neo4django.graph_auth','neo4django.db',
               'neo4django.db.models','neo4django.tests', 'neo4django.gremlin',
-              'neo4django.admin', 'neo4django.admin.templatetags', 
+              'neo4django.admin', 'neo4django.admin.templatetags',
               'neo4django.contenttypes'],
     package_dir={'neo4django':'neo4django'},
     package_data={'neo4django':['gremlin/*.groovy']},
@@ -20,7 +20,7 @@ setup(
         'decorator>=3.3.1',
         'python-dateutil>=2.0',
         'neo4jrestclient>=1.7',
-        'Django>=1.3, <1.6',
+        'Django>=1.3',
         'lucene-querybuilder>=0.1.6'
     ],
     tests_require=[
